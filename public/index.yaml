@@ -501,7 +501,7 @@
   links:
     - https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%AC%E3%83%83%E3%83%89%E3%83%BB%E3%83%89%E3%83%AC%E3%83%84%E3%82%AD
 - name: デイヴィッド・ルイス
-  names: ['Davis Lewis']
+  names: ['David Lewis']
   range: [1941, 2001]
   tags: ['論理学', '存在論']
 - name: クリステヴァ
