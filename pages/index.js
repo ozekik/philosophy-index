@@ -12,7 +12,7 @@ export default function Home({ index }) {
       <nav className="navbar flex px-6 py-4 border-b">
         <div className="flex items-center">
           <div>
-            <a href="/">
+            <a href="#">
               <span className="font-semibold text-xl">私家版 哲学索引 (β)</span>
             </a>
           </div>

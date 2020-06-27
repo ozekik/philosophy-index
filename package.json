@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "deploy": "npm run export && gh-pages -d out/"
+    "deploy": "npm run export && touch out/.nojekyll && gh-pages --dotfiles -d out/"
   },
   "dependencies": {
     "js-yaml": "^3.14.0",
