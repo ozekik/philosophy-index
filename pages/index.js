@@ -90,7 +90,11 @@ export default function Home({ index }) {
 
       <style jsx>{``}</style>
 
-      <style jsx global>{``}</style>
+      <style jsx global>{`
+        a {
+          overflow-wrap: break-word;
+        }
+      `}</style>
     </div>
   );
 }
