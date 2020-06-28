@@ -2,16 +2,15 @@
   names: ['Thales']
   range: [-624, -545]
   tags: ['古代ギリシア', 'ミレトス学派']
-  links: ['https://ja.wikipedia.org/wiki/%E3%82%BF%E3%83%AC%E3%82%B9']
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%82%BF%E3%83%AC%E3%82%B9
   note: 西洋哲学の祖と言われている人。
 - name: アナクシメネス
   names: ['ミレトスのアナクシメネス', 'Anaximenes']
   range: [-586, -526]
   tags: ['古代ギリシア', 'ミレトス学派']
   links:
-    [
-      'https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%8A%E3%82%AF%E3%82%B7%E3%83%A1%E3%83%8D%E3%82%B9',
-    ]
+    - https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%8A%E3%82%AF%E3%82%B7%E3%83%A1%E3%83%8D%E3%82%B9
 - name: アナクシマンドロス
   tags: ['古代ギリシア', 'ミレトス学派']
 - name: ソクラテス
@@ -44,12 +43,10 @@
   range: [204, 270]
   tags: ['新プラトン主義', 'ネオプラトニズム']
   links:
-    [
-      'https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AD%E3%83%86%E3%82%A3%E3%83%8E%E3%82%B9',
-    ]
+    - https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AD%E3%83%86%E3%82%A3%E3%83%8E%E3%82%B9
 - name: ポルピュリオス
   names: ['テュロスのポルピュリオス', 'Porphyry']
-  range: [234,  305]
+  range: [234, 305]
   tags: ['新プラトン主義']
   note: エイサゴーゲーを書いた。
   links:
@@ -63,7 +60,8 @@
 - name: ダマスキオス
   range: [480, 550]
   tags: ['アカデメイア派']
-  links: ['https://en.wikipedia.org/wiki/Damascius']
+  links:
+    - https://en.wikipedia.org/wiki/Damascius
   note: アカデメイアの最後の学頭。
 - name: キンディー
   tags: ['イスラーム']
@@ -77,12 +75,17 @@
   names: ['アヴェロエス']
   range: [1126, 1198]
   tags: ['イスラーム']
-- name: ボエティウス
-  tags: ['古代ローマ']
+- name: アウグスティヌス
+  names: ['Augustine of Hippo', 'Aurelius Augustinus Hipponensis']
+  range: [354, 430]
+  tags: ['キリスト教', '宗教', '古代ローマ', '北アフリカ']
   links:
-    [
-      'https://ja.wikipedia.org/wiki/%E3%83%9C%E3%82%A8%E3%83%86%E3%82%A3%E3%82%A6%E3%82%B9',
-    ]
+    - https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%A6%E3%82%B0%E3%82%B9%E3%83%86%E3%82%A3%E3%83%8C%E3%82%B9
+- name: ボエティウス
+  range: [477, 524]
+  tags: ['古代ローマ', '新プラトン主義']
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%83%9C%E3%82%A8%E3%83%86%E3%82%A3%E3%82%A6%E3%82%B9
 - name: エリウゲナ
   names: ['John Scotus Eriugena']
   range: [815, 877]
@@ -90,7 +93,7 @@
   note: アイルランド出身。『ペリヒュセイオン』を著した。
 - name: ロスケリヌス
   names: ['Roscellinus']
-  range: [1050,  1125]
+  range: [1050, 1125]
   tags: ['スコラ哲学', '唯名論']
 - name: オッカムのウィリアム
   tags: ['スコラ哲学', '唯名論']
@@ -104,15 +107,30 @@
   tags: ['スコラ哲学']
 - name: トマス・アクィナス
   names: ['Thomas Aquinas']
-  tags: ['スコラ哲学']
+  range: [1225, 1274]
+  tags: ['スコラ哲学', 'イタリア']
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%9E%E3%82%B9%E3%83%BB%E3%82%A2%E3%82%AF%E3%82%A3%E3%83%8A%E3%82%B9
 - name: ドゥンス・スコトゥス
-  tags: ['スコラ哲学']
+  names: ['Duns Scotus']
+  range: [1266, 1308]
+  tags: ['スコラ哲学', 'スコットランド', 'フランス']
+  note: 存在の一義性や個体化に関するこのもの性 (haecceitas) の議論で知られる。
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%83%A8%E3%83%8F%E3%83%8D%E3%82%B9%E3%83%BB%E3%83%89%E3%82%A5%E3%83%B3%E3%82%B9%E3%83%BB%E3%82%B9%E3%82%B3%E3%83%88%E3%82%A5%E3%82%B9
+- name: ビュリダン
+  names: ['Jean Buridan']
+  range: [1301, 1362]
+  tags: ['論理学', 'スコラ哲学', 'フランス']
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%BB%E3%83%93%E3%83%A5%E3%83%AA%E3%83%80%E3%83%B3
 - name: スアレス
   names: ['フランシスコ・スアレス', 'Francisco Suárez']
   range: [1548, 1617]
   tags: ['スコラ哲学']
 - name: エラスムス
   names: ['デジデリウス・エラスムス', 'Erasmus']
+  range: [1466, 1536]
   tags: ['人文主義']
   note: 『痴愚神礼讃』を書いた。
   links:
@@ -130,17 +148,40 @@
 - name: モンテーニュ
   names: ['ミシェル・ド・モンテーニュ', 'Michel de Montaigne']
   range: [1533, 1592]
-  tags: ['人文主義', 'モラリスト']
+  tags: ['人文主義', 'モラリスト', 'フランス']
+- name: ロジャー・ベーコン
+  names: ['Roger Bacon']
+  range: [1219, 1291]
+  tags: ['スコラ哲学', 'イギリス']
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%83%AD%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%BB%E3%83%99%E3%83%BC%E3%82%B3%E3%83%B3
+- name: フランシス・ベーコン
+  names: ['Francis Bacon']
+  range: [1561, 1626]
+  tags: ['イギリス経験論', 'イギリス']
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B7%E3%82%B9%E3%83%BB%E3%83%99%E3%83%BC%E3%82%B3%E3%83%B3_(%E5%93%B2%E5%AD%A6%E8%80%85)
+- name: ホッブズ
+  names: ['Thomas Hobbes']
+  range: [1588, 1679]
+  tags: ['政治', 'イギリス経験論', 'イギリス']
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%9E%E3%82%B9%E3%83%BB%E3%83%9B%E3%83%83%E3%83%96%E3%82%BA
 - name: デカルト
   names: ['René Descartes']
   range: [1596, 1650]
   tags: ['大陸合理論']
+- name: マルブランシュ
+  names: ['Nicolas Malebranche']
+  range: [1638, 1715]
+  tags: ['大陸合理論', 'フランス']
 - name: パスカル
   names: ['Blaise Pascal']
   range: [1623, 1662]
   tags: ['フランス']
 - name: スピノザ
-  names: ['Spinoza']
+  names: ['Baruch Spinoza']
+  range: [1632, 1677]
   tags: ['大陸合理論']
 - name: ライプニッツ
   names: ['Leibniz']
@@ -176,7 +217,8 @@
   tags: ['功利主義']
 - name: コント
   names: ['オーギュスト・コント', 'Auguste Comte']
-  tags: ['実証主義']
+  range: [1798, 1857]
+  tags: ['実証主義', 'フランス']
   note: 実証主義 (positivism) の立場を示した。
   links:
     - https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%BC%E3%82%AE%E3%83%A5%E3%82%B9%E3%83%88%E3%83%BB%E3%82%B3%E3%83%B3%E3%83%88
@@ -229,11 +271,23 @@
   tags: ['ドイツ', 'カント']
   note: 主著『意志と表象としての世界』。
 - name: ベンサム
-  tags: ['功利主義']
+  tags: ['功利主義', 'イギリス']
 - name: キルケゴール
-  tags: ['実存主義']
+  names: ['キェルケゴール', 'Søren Kierkegaard']
+  range: [1813, 1855]
+  tags: ['実存主義', 'デンマーク']
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%82%BB%E3%83%BC%E3%83%AC%E3%83%B3%E3%83%BB%E3%82%AD%E3%82%A7%E3%83%AB%E3%82%B1%E3%82%B4%E3%83%BC%E3%83%AB
 - name: マルクス
+  names: ['Karl Marx']
+  range: [1818, 1883]
   tags: ['共産主義']
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%9E%E3%83%AB%E3%82%AF%E3%82%B9
+- name: ニーチェ
+  names: ['フリードリヒ・ニーチェ', 'Friedrich Nietzsche']
+  range: [1844, 1900]
+  tags: ['ドイツ']
 - name: フロイト
   tags: ['精神分析']
 - name: ランゲ
@@ -259,6 +313,7 @@
 - name: ヴィンデルバント
   tags: ['新カント派', '西南学派', 'バーデン学派']
 - name: リッケルト
+  names: ['リッカート']
   tags: ['新カント派', '西南学派', 'バーデン学派']
 - name: ラスク
   names: ['Emil Lask']
@@ -266,29 +321,44 @@
   tags: ['新カント派', '西南学派', 'バーデン学派']
   links:
     - https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%9F%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%A9%E3%82%B9%E3%82%AF
-- name: ニーチェ
-  names: ['フリードリヒ・ニーチェ', 'Friedrich Nietzsche']
-  range: [1844, 1900]
-  tags: ['ドイツ']
 - name: パース
   names: ['C. S. パース', 'Charles Sanders Peirce']
   range: [1839, 1914]
   tags: ['プラグマティズム', 'プラグマティシズム', '論理学', 'アメリカ']
-- name: デューイ
-  tags: ['プラグマティズム']
 - name: ウィリアム・ジェームズ
-  tags: ['プラグマティズム']
-  note: 「意識の流れ」概念を提示した。
+  names: ['William James']
+  range: [1842, 1910]
+  tags: ['プラグマティズム', 'アメリカ']
+  note: 著書に『心理学原理』(<i>Principles of Psychology</i>) 。「意識の流れ」概念を提示した。
   links:
     - https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A3%E3%83%AA%E3%82%A2%E3%83%A0%E3%83%BB%E3%82%B8%E3%82%A7%E3%83%BC%E3%83%A0%E3%82%BA
+- name: デューイ
+  names: ['John Dewey']
+  range: [1859, 1952]
+  tags: ['プラグマティズム', 'アメリカ']
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%87%E3%83%A5%E3%83%BC%E3%82%A4
+- name: H. A. プリチャード
+  names: ['H. A. Prichard']
+  range: [1871, 1947]
+  tags: ['倫理学', 'アメリカ']
+  links:
+    - https://en.wikipedia.org/wiki/H._A._Prichard
+    - http://plaza.umin.ac.jp/~kodama/ethics/wordbook/prichard.html
+- name: E. B. ホルト
+  names: ['Edwin Holt']
+  range: [1873, 1946]
+  tags: ['新実在論', 'アメリカ']
+  links:
+    - https://en.wikipedia.org/wiki/Edwin_Holt
 - name: ベルクソン
+  names: ['アンリ・ベルクソン', 'Henri Bergson']
+  range: [1859, 1941]
   tags: ['フランス', '時間']
 - name: ボルツァーノ
   tags: ['論理学']
 - name: フレーゲ
   tags: ['論理学']
-- name: エーレンフェルス
-  tags: ['ブレンターノ学派']
 - name: コルネリウス
   names: ['Hans Cornelius']
   range: [1863, 1947]
@@ -301,19 +371,33 @@
   note: マイノングが『高階の対象について』で応答している相手。同名の哲学者 <a href="https://de.wikipedia.org/wiki/Friedrich_Karl_Schumann">Friedrich Karl Schumann</a> とは別人？
 - name: ブレンターノ
   names: ['Franz Brentano']
+  range: [1838, 1917]
   tags: ['ブレンターノ学派']
-- name: トファルドフスキ
-  names: ['Twardowski']
-  tags: ['ブレンターノ学派', 'ルヴフ=ワルシャワ学派']
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%A9%E3%83%B3%E3%83%84%E3%83%BB%E3%83%96%E3%83%AC%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8E
 - name: シュトゥンプフ
   names: ['Carl Stumpf']
+  range: [1848, 1936]
   tags: ['ブレンターノ学派']
   note: ブレンターノ学派における事態概念の創始者の一人。著書に『音響心理学』(<i>Tonpsychologie</i>) 。
   links:
     - https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%AB%E3%83%BB%E3%82%B7%E3%83%A5%E3%83%88%E3%82%A5%E3%83%B3%E3%83%97
+- name: エーレンフェルス
+  names: ['Christian von Ehrenfels']
+  range: [1859, 1932]
+  tags: ['ブレンターノ学派', 'グラーツ学派']
+  note: 論文に『ゲシュタルト質 (形態質) について』(“Über Gestaltqualitäten”, 1890) 。
+  links:
+    - https://en.wikipedia.org/wiki/Christian_von_Ehrenfels
+- name: トファルドフスキ
+  names: ['Twardowski']
+  range: [1866, 1938]
+  tags: ['ブレンターノ学派', 'ルヴフ=ワルシャワ学派']
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%82%AB%E3%82%B8%E3%83%9F%E3%82%A7%E3%82%B7%E3%83%A5%E3%83%BB%E3%83%88%E3%83%B4%E3%82%A1%E3%83%AB%E3%83%89%E3%83%95%E3%82%B9%E3%82%AD
 - name: マイノング
   names: ['アレクシウス・マイノング', 'Alexius Meinong']
-  tags: ['グラーツ学派']
+  tags: ['グラーツ学派', 'ブレンターノ学派']
   range: [1853, 1920]
 - name: ヘフラー
   tags: ['グラーツ学派']
@@ -332,11 +416,15 @@
   names: ['Tadeusz Kotarbiński']
   tags: ['論理学', 'ルヴフ=ワルシャワ学派']
 - name: タルスキ
+  names: ['タルスキー', 'Alfred Tarski']
+  range: [1901, 1983]
   tags: ['論理学', 'ルヴフ=ワルシャワ学派']
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%AB%E3%83%95%E3%83%AC%E3%83%88%E3%83%BB%E3%82%BF%E3%83%AB%E3%82%B9%E3%82%AD
 - name: フッサール
   names: ['エトムント・フッサール', 'Edmund Husserl']
   range: [1859, 1938]
-  tags: ['現象学']
+  tags: ['現象学', 'ブレンターノ学派']
 - name: マルティ
   tags: ['現象学']
 - name: プフェンダー
@@ -348,28 +436,76 @@
 - name: ヘーリング
   names: ['Jean Hering']
   tags: ['現象学']
-- name: プフェンダー
-  tags: ['現象学']
 - name: ライナッハ
   tags: ['現象学']
 - name: コンラート=マルティウス
   tags: ['現象学']
 - name: インガルデン
-  tags: ['現象学']
+  tags: ['現象学', 'ドイツ', 'ポーランド']
 - name: ハイデガー
-  tags: ['現象学']
+  names: ['Martin Heidegger']
+  range: [1889, 1976]
+  tags: ['現象学', 'ドイツ']
+- name: シュッツ
+  names: ['Alfred Schütz', 'Alfred Schutz']
+  range: [1899, 1959]
+  tags: ['現象学', 'オーストリア', 'アメリカ']
+- name: マーヴィン・ファーバー
+  names: ['Marvin Farber']
+  range: [1901, 1980]
+  tags: ['現象学', 'アメリカ']
+  note: 著書に <i>The Foundation of Phenomenology</i> 。
+- name: ガダマー
+  names: ['Hans-Georg Gadamer']
+  range: [1900, 2002]
+  tags: ['解釈学', 'ドイツ']
 - name: サルトル
-  tags: ['現象学', '実存主義']
+  names: ['Jean-Paul Sartre']
+  range: [1905, 1980]
+  tags: ['現象学', '実存主義', 'フランス']
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A3%E3%83%B3%EF%BC%9D%E3%83%9D%E3%83%BC%E3%83%AB%E3%83%BB%E3%82%B5%E3%83%AB%E3%83%88%E3%83%AB
 - name: ボーヴォワール
   names: ['シモーヌ・ド・ボーヴォワール', 'Simone de Beauvoir']
   range: [1908, 1986]
-  tags: ['フェミニズム', '実存主義']
+  tags: ['フェミニズム', '実存主義', 'フランス']
 - name: メルロ=ポンティ
-  tags: ['現象学']
-- name: ガダマー
-  tags: ['解釈学']
-- name: レヴィナス
+  names: ['メルロー=ポンティ', 'Maurice Merleau-Ponty']
+  range: [1908, 1961]
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%BC%E3%83%AA%E3%82%B9%E3%83%BB%E3%83%A1%E3%83%AB%E3%83%AD%E3%83%BC%EF%BC%9D%E3%83%9D%E3%83%B3%E3%83%86%E3%82%A3
   tags: ['現象学', 'フランス']
+- name: レヴィナス
+  range: [1906, 1995]
+  tags: ['現象学', 'フランス']
+- name: ガストン・バシュラール
+  names: ['Gaston Bachelard']
+  range: [1884, 1962]
+  tags: ['科学哲学', 'フランス・エピステモロジー', 'フランス']
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%82%AC%E3%82%B9%E3%83%88%E3%83%B3%E3%83%BB%E3%83%90%E3%82%B7%E3%83%A5%E3%83%A9%E3%83%BC%E3%83%AB
+- name: カヴァイエス
+  names: ['ジャン・カヴァイエス', 'Jean Cavaillès']
+  range: [1903, 1944]
+  tags: ['科学哲学', '数学', 'フランス・エピステモロジー', 'フランス']
+  links:
+    - https://en.wikipedia.org/wiki/Jean_Cavaill%C3%A8s
+- name: カンギレム
+  names: ['Georges Canguilhem']
+  range: [1904, 1995]
+  tags: ['科学哲学', '生物学', 'フランス・エピステモロジー', 'フランス']
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%AB%E3%82%B8%E3%83%A5%E3%83%BB%E3%82%AB%E3%83%B3%E3%82%AE%E3%83%AC%E3%83%A0
+- name: リクール
+  names: ['Paul Ricœur']
+  range: [1913, 2005]
+  tags: ['言語', 'フランス', 'アメリカ']
+- name: ベンヤミン
+  names: ['ヴァルター・ベンヤミン', 'Walter Benjamin']
+  range: [1892, 1940]
+  tags: ['ドイツ']
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%83%B4%E3%82%A1%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%BB%E3%83%99%E3%83%B3%E3%83%A4%E3%83%9F%E3%83%B3
 - name: アドルノ
   tags: ['フランクフルト学派']
 - name: ホルクハイマー
@@ -377,25 +513,62 @@
   range: [1895, 1973]
   tags: ['フランクフルト学派']
 - name: ハーバーマス
+  names: ['Jürgen Habermas']
+  range: [1929, Infinity]
   tags: ['フランクフルト学派']
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%83%A6%E3%83%AB%E3%82%B2%E3%83%B3%E3%83%BB%E3%83%8F%E3%83%BC%E3%83%90%E3%83%BC%E3%83%9E%E3%82%B9
 - name: ブラッドリー
   names: ['Francis Herbert Bradley']
-  tags: ['イギリス']
+  range: [1846, 1924]
+  tags: ['イギリス観念論', 'イギリス']
   links:
     - https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B7%E3%82%B9%E3%83%BB%E3%83%8F%E3%83%BC%E3%83%90%E3%83%BC%E3%83%88%E3%83%BB%E3%83%96%E3%83%A9%E3%83%83%E3%83%89%E3%83%AA%E3%83%BC
+- name: サミュエル・アレクサンダー
+  names: ['Samuel Alexander']
+  range: [1859, 1938]
+  tags: ['存在論', 'オーストラリア', 'イギリス']
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%9F%E3%83%A5%E3%82%A8%E3%83%AB%E3%83%BB%E3%82%A2%E3%83%AC%E3%82%AF%E3%82%B5%E3%83%B3%E3%83%80%E3%83%BC
+- name: マクタガート
+  names: ['J. M. E. McTaggart']
+  range: [1866, 1925]
+  tags: ['時間論', 'イギリス観念論', 'イギリス']
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%9E%E3%82%AF%E3%82%BF%E3%82%AC%E3%83%BC%E3%83%88
 - name: ラッセル
   names: ['バートランド・ラッセル', 'Bertrand Russell']
   range: [1872, 1970]
-  tags: ['分析哲学']
+  tags: ['分析哲学', '論理学']
   note: 『ロジ・コミックス』の主人公。
   links:
     - https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%BC%E3%83%88%E3%83%A9%E3%83%B3%E3%83%89%E3%83%BB%E3%83%A9%E3%83%83%E3%82%BB%E3%83%AB
+- name: G. E. ムーア
+  names: ['ムア', 'George Edward Moore']
+  range: [1873, 1958]
+  tags: ['分析哲学', '倫理学']
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%BC%E3%82%B8%E3%83%BB%E3%82%A8%E3%83%89%E3%83%AF%E3%83%BC%E3%83%89%E3%83%BB%E3%83%A0%E3%83%BC%E3%82%A2
 - name: C. D. ブロード
-  tags: ['分析哲学']
+  names: ['C. D. Broad']
+  range: [1887, 1971]
+  tags: ['分析哲学', 'イギリス']
+  links:
+    - https://en.wikipedia.org/wiki/C._D._Broad
 - name: ホワイトヘッド
-  tags: ['分析哲学']
+  tags: ['分析哲学', '論理学']
+- name: フィンドリー
+  names: ['J. N. フィンドリー', 'J. N. Findlay']
+  range: [1903, 1987]
+  tags: ['現象学', '南アフリカ', 'イギリス']
+  links:
+    - https://en.wikipedia.org/wiki/John_Niemeyer_Findlay
 - name: ウィトゲンシュタイン
+  names: ['Ludwig Wittgenstein']
+  range: [1889, 1951]
   tags: ['分析哲学', '日常言語学派']
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%83%AB%E3%83%BC%E3%83%88%E3%83%B4%E3%82%A3%E3%83%92%E3%83%BB%E3%82%A6%E3%82%A3%E3%83%88%E3%82%B2%E3%83%B3%E3%82%B7%E3%83%A5%E3%82%BF%E3%82%A4%E3%83%B3
 - name: フット
   names: ['Philippa Foot']
   range: [1920, 2010]
@@ -404,16 +577,32 @@
   note: トロッコ問題を考案した。
 - name: アンスコム
   tags: ['徳倫理学']
-- name: フィンドリー
-  tags: ['現象学']
+- name: ギーチ
+  range: [1916, 2013]
+  tags: ['イギリス']
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%83%94%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%BB%E3%82%AE%E3%83%BC%E3%83%81
 - name: ライル
   tags: ['日常言語学派']
+  note: 主著『心の概念』。
 - name: オースティン
   tags: ['日常言語学派']
+- name: サール
+  names: ['ジョン・サール', 'John Searle']
+  range: [1932, Infinity]
+  tags: ['言語', 'イギリス', 'アメリカ']
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%BB%E3%82%B5%E3%83%BC%E3%83%AB
 - name: デューイ
   names: ['ジョン・デューイ', 'John Dewey']
   range: [1859, 1952]
   tags: ['道具主義', 'プラグマティズム']
+- name: ラブジョイ
+  names: ['Arthur Oncken Lovejoy']
+  range: [1873, 1962]
+  tags: ['アメリカ']
+  links:
+    - https://en.wikipedia.org/wiki/Arthur_Oncken_Lovejoy
 - name: ローティ
   names: ['リチャード・ローティ', 'Richard Rorty']
   range: [1931, 2007]
@@ -428,36 +617,89 @@
   tags: ['論理実証主義']
 - name: ポパー
   names: ['カール・ポパー', 'Karl Popper']
+  range: [1902, 1994]
   tags: ['科学哲学']
   note: 「反証可能性」の概念が有名。
   links:
     - https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%9D%E3%83%91%E3%83%BC
-- name: ファイヤアーベント
+- name: クーン
+  names: ['Thomas Kuhn']
+  range: [1922, 1996]
   tags: ['科学哲学']
+  note: 「パラダイム」の概念が有名。
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%BC%E3%83%9E%E3%82%B9%E3%83%BB%E3%82%AF%E3%83%BC%E3%83%B3
+- name: ファイヤアーベント
+  names: ['Paul Feyerabend']
+  range: [1924, 1994]
+  tags: ['科学哲学', 'オーストリア', 'アメリカ']
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%83%9D%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%95%E3%82%A1%E3%82%A4%E3%83%A4%E3%82%A2%E3%83%BC%E3%83%99%E3%83%B3%E3%83%88
 - name: グッドマン
   tags: ['美学', 'メレオロジー']
 - name: クワイン
-  tags: ['論理学', '存在論', 'メレオロジー']
+  names: ['Willard Van Orman Quine']
+  range: [1908, 2000]
+  tags: ['論理学', '存在論', 'メレオロジー', 'アメリカ']
+- name: セラーズ
+  names: ['Wilfrid Sellars']
+  range: [1912, 1989]
+  tags: ['認識論', 'アメリカ']
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A3%E3%83%AB%E3%83%95%E3%83%AA%E3%83%89%E3%83%BB%E3%82%BB%E3%83%A9%E3%83%BC%E3%82%BA
 - name: デイヴィドソン
-  tags: ['言語']
+  names: ['デイヴィッドソン', 'Donald Davidson']
+  range: [1917, 2003]
+  tags: ['言語', 'アメリカ']
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89%E3%83%BB%E3%83%87%E3%82%A4%E3%83%B4%E3%82%A3%E3%83%83%E3%83%89%E3%82%BD%E3%83%B3
 - name: クリプキ
+  range: [1940, Infinity]
   tags: ['論理学']
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%BC%E3%83%AB%E3%83%BB%E3%82%AF%E3%83%AA%E3%83%97%E3%82%AD
+- name: デイヴィッド・ルイス
+  names: ['David Lewis']
+  range: [1941, 2001]
+  tags: ['論理学', '存在論']
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%A4%E3%83%B4%E3%82%A3%E3%83%89%E3%83%BB%E3%83%AB%E3%82%A4%E3%82%B9
 - name: ロールズ
   tags: ['政治', 'アメリカ']
-- name: ウリクト
+- name: フォン・ウリクト
   names: ['ゲオルク・ヘンリク・フォン・ウリクト', 'Georg Henrik von Wright']
   range: [1916, 2003]
   tags: ['論理学', 'フィンランド']
+  note: 義務論理 (deontic logic) の現代的先駆者のひとり。
+  links:
+    - https://ja.wikipedia.org/wiki/%E3%82%B2%E3%82%AA%E3%83%AB%E3%82%AF%E3%83%BB%E3%83%98%E3%83%B3%E3%83%AA%E3%82%AF%E3%83%BB%E3%83%95%E3%82%A9%E3%83%B3%E3%83%BB%E3%82%A6%E3%83%AA%E3%82%AF%E3%83%88
 - name: ヒンティッカ
   names: ['Jaakko Hintikka']
   range: [1929, 2015]
-  tags: ['フィンランド']
-- name: アームストロング
+  tags: ['論理学', 'フィンランド']
+- name: A. N. プライアー
+  names: ['Arthur Norman Prior']
+  range: [1914, 1969]
+  tags: ['論理学', 'ニュージーランド']
+  note: 時相論理 (tense logic, temporal logic) の現代的先駆者のひとり。
+  links:
+    - https://en.wikipedia.org/wiki/Arthur_Prior
+- name: D. M. アームストロング
+  names: ['David Malet Armstrong']
+  range: [1926, 2014]
   tags: ['存在論', 'オーストラリア']
+  links:
+    - https://en.wikipedia.org/wiki/David_Malet_Armstrong
 - name: ラウトリー
   names: ['シルヴァン', 'Richard Routley', 'Richard Sylvan']
   range: [1935, 1996]
   tags: ['存在論', '論理学', '環境', 'オーストラリア', 'ニュージーランド']
+- name: ルース・バーカン・マーカス
+  names: ['Ruth Barcan Marcus']
+  range: [1921, 2012]
+  tags: ['論理学', 'アメリカ']
+  links:
+    - https://en.wikipedia.org/wiki/Ruth_Barcan_Marcus
 - name: ソシュール
   names: ['フェルディナン・ド・ソシュール', 'Ferdinand de Saussure']
   range: [1857, 1913]
@@ -500,10 +742,6 @@
   tags: ['認識論']
   links:
     - https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%AC%E3%83%83%E3%83%89%E3%83%BB%E3%83%89%E3%83%AC%E3%83%84%E3%82%AD
-- name: デイヴィッド・ルイス
-  names: ['David Lewis']
-  range: [1941, 2001]
-  tags: ['論理学', '存在論']
 - name: クリステヴァ
   names: ['Julia Kristeva']
   tags: ['ポスト構造主義']
