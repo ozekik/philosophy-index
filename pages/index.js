@@ -52,7 +52,7 @@ export default function Home({ index }) {
               </div>
               {Array.isArray(person.range) && (
                 <div className="inline-block ml-1 text-xs">
-                  (c. {person.range.join(' – ')})
+                  (c. {person.range.map(v => Number.isInteger(v) ? v : '').join(' – ')})
                 </div>
               )}
             </div>
