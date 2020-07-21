@@ -333,9 +333,9 @@
   links:
     - https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A3%E3%83%AA%E3%82%A2%E3%83%A0%E3%83%BB%E3%82%B8%E3%82%A7%E3%83%BC%E3%83%A0%E3%82%BA
 - name: デューイ
-  names: ['John Dewey']
+  names: ['ジョン・デューイ', 'John Dewey']
   range: [1859, 1952]
-  tags: ['プラグマティズム', 'アメリカ']
+  tags: ['プラグマティズム', '道具主義', 'アメリカ']
   links:
     - https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%87%E3%83%A5%E3%83%BC%E3%82%A4
 - name: H. A. プリチャード
@@ -601,10 +601,6 @@
   tags: ['言語', 'イギリス', 'アメリカ']
   links:
     - https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%BB%E3%82%B5%E3%83%BC%E3%83%AB
-- name: デューイ
-  names: ['ジョン・デューイ', 'John Dewey']
-  range: [1859, 1952]
-  tags: ['道具主義', 'プラグマティズム']
 - name: ラブジョイ
   names: ['Arthur Oncken Lovejoy']
   range: [1873, 1962]

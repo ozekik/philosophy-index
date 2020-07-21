@@ -40,12 +40,15 @@ export default function Home({ index }) {
         </div>
       </nav>
 
-      <div class="container flex">
-        <aside class="hidden lg:block px-4 py-4" style={{ width: '32rem' }}>
-          <ul class="leading-relaxed">
-            {index.map((person) => (
-              <li>
-                <a href={`#${person.name}`} class="text-xs text-gray-600">
+      <div className="container flex">
+        <aside
+          className="flex-none hidden lg:block px-4 py-4"
+          style={{ width: '18rem', minWidth: '18rem' }}
+        >
+          <ul className="leading-relaxed">
+            {index.map((person, i) => (
+              <li key={i}>
+                <a href={`#${person.name}`} className="text-xs text-gray-600">
                   {person.name}
                 </a>
               </li>
@@ -53,9 +56,9 @@ export default function Home({ index }) {
           </ul>
         </aside>
 
-        <main className="flex-col px-6 py-4">
-          {index.map((person) => (
-            <div className="mb-6" id={`${person.name}`}>
+        <main className="flex-auto flex-col px-6 py-4">
+          {index.map((person, i) => (
+            <div key={i} className="mb-6" id={`${person.name}`}>
               <div>
                 <div className="inline-block text-lg font-semibold">
                   {person.name}
@@ -75,8 +78,8 @@ export default function Home({ index }) {
               </div>
               {person.tags && (
                 <div className="my-2 text-xs">
-                  {person.tags.map((tag) => (
-                    <div className="inline-block px-2 py-1 mr-1 rounded-sm bg-gray-500 text-white font-medium">
+                  {person.tags.map((tag, i) => (
+                    <div key={i} className="inline-block px-2 py-1 mr-1 rounded-sm bg-gray-500 text-white font-medium">
                       {tag}
                     </div>
                   ))}
@@ -91,8 +94,8 @@ export default function Home({ index }) {
               {person.links && (
                 <div className="mt-4 text-xs">
                   <ul className="list-disc list-inside">
-                    {person.links.map((v) => (
-                      <li>
+                    {person.links.map((v, i) => (
+                      <li key={i}>
                         <a href={v} className="text-blue-600" target="_blank">
                           {v}
                         </a>
@@ -111,6 +114,7 @@ export default function Home({ index }) {
       <style jsx global>{`
         a {
           overflow-wrap: break-word;
+          word-break: break-all;
         }
       `}</style>
     </div>
