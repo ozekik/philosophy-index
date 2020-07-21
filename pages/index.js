@@ -24,7 +24,7 @@ export default function Home({ index }) {
           <div className="text-sm">
             <a
               href="https://github.com/ozekik/philosophy-index"
-              className="block lg:inline-block lg:mt-0 mr-4 text-gray-600 hover:text-gray-800"
+              className="block lg:inline-block lg:mt-0 text-gray-600 hover:text-gray-800"
             >
               <svg
                 style={{ width: '24px', height: '24px' }}
@@ -40,53 +40,71 @@ export default function Home({ index }) {
         </div>
       </nav>
 
-      <main className="flex-col px-6 py-4">
-        {index.map((person) => (
-          <div className="mb-6">
-            <div>
-              <div className="inline-block text-lg font-semibold">
-                {person.name}
+      <div class="container flex">
+        <aside class="hidden lg:block px-4 py-4" style={{ width: '32rem' }}>
+          <ul class="leading-relaxed">
+            {index.map((person) => (
+              <li>
+                <a href={`#${person.name}`} class="text-xs text-gray-600">
+                  {person.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </aside>
+
+        <main className="flex-col px-6 py-4">
+          {index.map((person) => (
+            <div className="mb-6" id={`${person.name}`}>
+              <div>
+                <div className="inline-block text-lg font-semibold">
+                  {person.name}
+                </div>
+                <div className="inline-block ml-1 text-sm">
+                  {(person.names || []).join(' · ')}
+                </div>
+                {Array.isArray(person.range) && (
+                  <div className="inline-block ml-1 text-xs">
+                    (c.{' '}
+                    {person.range
+                      .map((v) => (Number.isInteger(v) ? v : ''))
+                      .join(' – ')}
+                    )
+                  </div>
+                )}
               </div>
-              <div className="inline-block ml-1 text-sm">
-                {(person.names || []).join(' · ')}
-              </div>
-              {Array.isArray(person.range) && (
-                <div className="inline-block ml-1 text-xs">
-                  (c. {person.range.map(v => Number.isInteger(v) ? v : '').join(' – ')})
+              {person.tags && (
+                <div className="my-2 text-xs">
+                  {person.tags.map((tag) => (
+                    <div className="inline-block px-2 py-1 mr-1 rounded-sm bg-gray-500 text-white font-medium">
+                      {tag}
+                    </div>
+                  ))}
+                </div>
+              )}
+              {person.note && (
+                <div
+                  className="mt-4 mb-4 text-sm"
+                  dangerouslySetInnerHTML={{ __html: person.note }}
+                ></div>
+              )}
+              {person.links && (
+                <div className="mt-4 text-xs">
+                  <ul className="list-disc list-inside">
+                    {person.links.map((v) => (
+                      <li>
+                        <a href={v} className="text-blue-600" target="_blank">
+                          {v}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               )}
             </div>
-            {person.tags && (
-              <div className="my-2 text-xs">
-                {person.tags.map((tag) => (
-                  <div className="inline-block px-2 py-1 mr-1 rounded-sm bg-gray-500 text-white font-medium">
-                    {tag}
-                  </div>
-                ))}
-              </div>
-            )}
-            {person.note && (
-              <div
-                className="mt-4 mb-4 text-sm"
-                dangerouslySetInnerHTML={{ __html: person.note }}
-              ></div>
-            )}
-            {person.links && (
-              <div className="mt-4 text-xs">
-                <ul className="list-disc list-inside">
-                  {person.links.map((v) => (
-                    <li>
-                      <a href={v} className="text-blue-600" target="_blank">
-                        {v}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )}
-          </div>
-        ))}
-      </main>
+          ))}
+        </main>
+      </div>
 
       <style jsx>{``}</style>
 
