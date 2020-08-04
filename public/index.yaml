@@ -184,18 +184,28 @@
   range: [1632, 1677]
   tags: ['大陸合理論']
 - name: ライプニッツ
-  names: ['Leibniz']
+  names: ['Gottfried Wilhelm Leibniz']
+  range: [1646, 1716]
   tags: ['大陸合理論']
 - name: ヴィーコ
   names: ['ジャンバッティスタ・ヴィーコ', 'Giambattista Vico']
   range: [1668, 1744]
   tags: ['イタリア']
 - name: ロック
+  names: ['ジョン・ロック', 'John Locke']
+  range: [1632, 1704]
   tags: ['イギリス経験論']
+  note: 著書に『人間知性論 (人間悟性論)』(<i>An Essay Concerning Human Understanding</i>, 1689) 。
 - name: バークリ
+  names: ['バークリー', 'バークレー', 'ジョージ・バークリ', 'George Berkeley']
+  range: [1685, 1753]
   tags: ['イギリス経験論']
+  note: 著書に『視覚新論』(<i>An Essay Towards a New Theory of Vision</i>, 1709)、『人知原理論』(<i>A Treatise Concerning the Principles of Human Knowledge</i>, 1710) 。
 - name: ヒューム
+  names: ['デイヴィッド・ヒューム', 'David Hume']
+  range: [1711, 1776]
   tags: ['イギリス経験論']
+  note: 著書に『人間本性論 (人性論)』(<i>A Treatise of Human Nature</i>, 1739/40)、『人間知性研究』(<i>An Enquiry Concerning Human Understanding</i>, 1748)、『道徳原理研究』(<i>An Enquiry Concerning the Principles of Morals</i>, 1751) 。
 - name: リード
   names: ['トマス・リード', 'Thomas Reid']
   range: [1710, 1796]
@@ -243,7 +253,10 @@
   links:
     - https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A3%E3%83%B3%EF%BC%9D%E3%82%B8%E3%83%A3%E3%83%83%E3%82%AF%E3%83%BB%E3%83%AB%E3%82%BD%E3%83%BC
 - name: カント
+  names: ['イマヌエル・カント', 'Immanuel Kant']
+  range: [1724, 1804]
   tags: ['ドイツ']
+  note: 著書に『純粋理性批判』(<i>Kritik der reinen Vernunft</i>, 1781/1787)、『実践理性批判』(<i>Kritik der praktischen Vernunft</i>, 1788)、『判断力批判』(<i>Kritik der Urteilskraft</i>, 1790)。
 - name: ヤコービ
   tags: ['カント']
 - name: ヘルダー
@@ -259,12 +272,19 @@
 - name: マイモン
   tags: ['カント']
 - name: フィヒテ
+  names: ['J. G. Fichte']
+  range: [1762, 1814]
   tags: ['ドイツ観念論']
+  note: 著書に『全知識学の基礎』(<i>Grundlage der gesammten Wissenschaftslehre</i>, 1794/1795) 。
 - name: シェリング
+  names: ['F. W. J. Schelling']
+  range: [1775, 1854]
   tags: ['ドイツ観念論']
 - name: ヘーゲル
-  names: ['Hegel']
+  names: ['G. W. F. Hegel']
+  range: [1770, 1831]
   tags: ['ドイツ観念論']
+  note: 著書に『精神現象学』(<i>Phänomenologie des Geistes</i>, 1807) 。
 - name: ショーペンハウアー
   names: ['ショーペンハウエル', 'Arthur Schopenhauer']
   range: [1788, 1860]
@@ -302,6 +322,8 @@
 - name: ナトルプ
   tags: ['新カント派', 'マールブルク学派']
 - name: カッシーラー
+  names: ['エルンスト・カッシーラー', 'Ernst Cassirer']
+  range: [1874, 1945]
   tags: ['新カント派', 'マールブルク学派']
 - name: ハルトマン
   names: ['ニコライ・ハルトマン', 'Nicolai Hartmann']
@@ -309,6 +331,7 @@
   tags: ['新カント派']
 - name: ロッツェ
   names: ['ヘルマン・ロッツェ', 'Hermann Lotze']
+  range: [1817, 1881]
   tags: ['新カント派']
 - name: ヴィンデルバント
   tags: ['新カント派', '西南学派', 'バーデン学派']
@@ -356,8 +379,13 @@
   range: [1859, 1941]
   tags: ['フランス', '時間']
 - name: ボルツァーノ
-  tags: ['論理学']
+  names: ['Bernard Bolzano']
+  range: [1781, 1848]
+  tags: ['論理学', '数学']
+  note: 著作に『学問論』(<i>Wissenschaftslehre</i>, 1837)、『無限の逆説』(<i>Paradoxien des Unendlichen</i>, 1851) 。
 - name: フレーゲ
+  names: ['ゴットロープ・フレーゲ', 'Gottlob Frege']
+  range: [1848, 1925]
   tags: ['論理学']
 - name: コルネリウス
   names: ['Hans Cornelius']
@@ -373,6 +401,7 @@
   names: ['Franz Brentano']
   range: [1838, 1917]
   tags: ['ブレンターノ学派']
+  note: 著作に『経験的観点からの心理学』(<i>Psychologie vom empirischen Standpunkte</i>, 1874/1924) 。
   links:
     - https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%A9%E3%83%B3%E3%83%84%E3%83%BB%E3%83%96%E3%83%AC%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8E
 - name: シュトゥンプフ
@@ -439,7 +468,9 @@
 - name: ライナッハ
   tags: ['現象学']
 - name: コンラート=マルティウス
-  tags: ['現象学']
+  names: ['Hedwig Conrad-Martius']
+  range: [1888, 1966]
+  tags: ['現象学', 'キリスト教神学']
 - name: インガルデン
   tags: ['現象学', 'ドイツ', 'ポーランド']
 - name: ハイデガー
@@ -591,9 +622,13 @@
   links:
     - https://ja.wikipedia.org/wiki/%E3%83%94%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%BB%E3%82%AE%E3%83%BC%E3%83%81
 - name: ライル
+  names: ['ギルバート・ライル', 'Gilbert Ryle']
+  range: [1900, 1976]
   tags: ['日常言語学派']
   note: 主著『心の概念』。
 - name: オースティン
+  names: ['J. L. Austin']
+  range: [1911, 1960]
   tags: ['日常言語学派']
 - name: サール
   names: ['ジョン・サール', 'John Searle']
