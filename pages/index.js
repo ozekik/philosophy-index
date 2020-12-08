@@ -122,7 +122,7 @@ export default function Home({ index }) {
 }
 
 export async function getStaticProps() {
-  const data = await fetch(`http://localhost:3000/index.yaml`).then((resp) =>
+  const data = await fetch(`http://localhost:3000/philosophy-index/index.yaml`).then((resp) =>
     resp.text(),
   );
   const index = yaml.safeLoad(data);
