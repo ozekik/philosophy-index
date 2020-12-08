@@ -102,6 +102,8 @@
 - name: ギヨーム・ド・シャンポー
   tags: ['スコラ哲学', '実在論']
 - name: アベラール
+  names: ['Pierre Abélard']
+  range: [ 1079, 1142]
   tags: ['スコラ哲学']
 - name: アンセルムス
   tags: ['スコラ哲学']
@@ -472,6 +474,8 @@
   range: [1888, 1966]
   tags: ['現象学', 'キリスト教神学']
 - name: インガルデン
+  names: ['Roman Ingarden']
+  range: [1893, 1970]
   tags: ['現象学', 'ドイツ', 'ポーランド']
 - name: ハイデガー
   names: ['Martin Heidegger']
