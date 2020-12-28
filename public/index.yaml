@@ -571,6 +571,10 @@
   tags: ['時間論', 'イギリス観念論', 'イギリス']
   links:
     - https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%9E%E3%82%AF%E3%82%BF%E3%82%AC%E3%83%BC%E3%83%88
+- name: ホワイトヘッド
+  names: ['アルフレッド・ノース・ホワイトヘッド', 'Alfred North Whitehead']
+  range: [1861, 1947]
+  tags: ['分析哲学', '論理学']
 - name: ラッセル
   names: ['バートランド・ラッセル', 'Bertrand Russell']
   range: [1872, 1970]
@@ -590,8 +594,6 @@
   tags: ['分析哲学', 'イギリス']
   links:
     - https://en.wikipedia.org/wiki/C._D._Broad
-- name: ホワイトヘッド
-  tags: ['分析哲学', '論理学']
 - name: フィンドリー
   names: ['J. N. フィンドリー', 'J. N. Findlay']
   range: [1903, 1987]
@@ -652,11 +654,18 @@
   tags: ['アメリカ']
   note: 著書に『哲学と自然の鏡』。
 - name: ノイラート
+  names: ['オットー・ノイラート', 'Otto Neurath', 'Otto Karl Wilhelm Neurath']
+  range: [1882, 1945]
   tags: ['論理実証主義']
+  note: アイソタイプ (isotype) の考案者の一人。
 - name: ラムジー
-  names: ['ラムゼイ']
+  names: ['フランク・ラムジー', 'フランク・ラムゼイ', 'Frank Ramsey', 'Frank Plumpton Ramsey']
+  range: [1903, 1930]
   tags: ['論理実証主義']
+  note: 「ラムジー文」(Ramsey sentence) に名前を残す。
 - name: カルナップ
+  names: ['ルドルフ・カルナップ', 'Rudolf Carnap']
+  range: [1891, 1970]
   tags: ['論理実証主義']
 - name: ポパー
   names: ['カール・ポパー', 'Karl Popper']
@@ -697,6 +706,7 @@
   links:
     - https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89%E3%83%BB%E3%83%87%E3%82%A4%E3%83%B4%E3%82%A3%E3%83%83%E3%83%89%E3%82%BD%E3%83%B3
 - name: クリプキ
+  names: ['ソール・クリプキ', 'Saul Kripke']
   range: [1940, Infinity]
   tags: ['論理学']
   links:
