@@ -292,14 +292,16 @@
   range: [1788, 1860]
   tags: ['ドイツ', 'カント']
   note: 主著『意志と表象としての世界』。
-- name: ベンサム
-  tags: ['功利主義', 'イギリス']
 - name: キルケゴール
   names: ['キェルケゴール', 'Søren Kierkegaard']
   range: [1813, 1855]
   tags: ['実存主義', 'デンマーク']
   links:
     - https://ja.wikipedia.org/wiki/%E3%82%BB%E3%83%BC%E3%83%AC%E3%83%B3%E3%83%BB%E3%82%AD%E3%82%A7%E3%83%AB%E3%82%B1%E3%82%B4%E3%83%BC%E3%83%AB
+- name: ベンサム
+  names: ['ベンタム', 'Jeremy Bentham']
+  range: [1748, 1832]
+  tags: ['功利主義', 'イギリス']
 - name: マルクス
   names: ['Karl Marx']
   range: [1818, 1883]
@@ -612,6 +614,14 @@
   tags: ['分析哲学']
   links:
     - https://ja.wikipedia.org/wiki/%E3%83%81%E3%83%A3%E3%83%BC%E3%83%AB%E3%82%BA%E3%83%BB%E3%82%B1%E3%82%A4%E3%83%BB%E3%82%AA%E3%82%B0%E3%83%87%E3%83%B3
+- name: エイヤー
+  names: ['エア', 'A. J. Ayer']
+  range: [1910, 1989]
+  tags: ['認識論', '論理実証主義', '言語哲学']
+- name: ヘア
+  names: ['リチャード・マーヴィン・ヘア', 'Richard M. Hare']
+  range: [1919, 2002]
+  tags: ['倫理学', '道徳哲学']
 - name: フット
   names: ['Philippa Foot']
   range: [1920, 2010]
@@ -636,6 +646,10 @@
   names: ['J. L. Austin']
   range: [1911, 1960]
   tags: ['日常言語学派']
+- name: グライス
+  names: ['Herbert Paul Grice']
+  range: [1913, 1988]
+  tags: ['言語哲学']
 - name: サール
   names: ['ジョン・サール', 'John Searle']
   range: [1932, Infinity]
@@ -705,6 +719,10 @@
   tags: ['言語', 'アメリカ']
   links:
     - https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89%E3%83%BB%E3%83%87%E3%82%A4%E3%83%B4%E3%82%A3%E3%83%83%E3%83%89%E3%82%BD%E3%83%B3
+- name: ジェグォン・キム
+  names: ['Jaegwon Kim']
+  range: [1934, 2019]
+  tags: ['分析哲学', '心の哲学']
 - name: クリプキ
   names: ['ソール・クリプキ', 'Saul Kripke']
   range: [1940, Infinity]
@@ -717,6 +735,11 @@
   tags: ['論理学', '存在論']
   links:
     - https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%A4%E3%83%B4%E3%82%A3%E3%83%89%E3%83%BB%E3%83%AB%E3%82%A4%E3%82%B9
+- name: エヴァンス
+  names: ['ガレス・エヴァンス', 'Gareth Evans']
+  range: [1946, 1980]
+  tags: ['言語哲学']
+  note: 主著に遺作の『The Varieties of Reference』(1982)。
 - name: ロールズ
   tags: ['政治', 'アメリカ']
 - name: フォン・ウリクト
